@@ -23,6 +23,7 @@ public class GradeAverage {
         double result = total / 6.0;
         String results = result >= 50 ? "Sýnýfý geçti" :"Sýnýfta Kaldý";
         System.out.println(results);
+        input.close();
 
 	}
 
