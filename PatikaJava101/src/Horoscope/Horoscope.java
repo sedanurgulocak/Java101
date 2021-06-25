@@ -91,7 +91,7 @@ public class Horoscope {
 		}else {
 			System.out.println("Geçersiz tarih girdiniz");
 		}
-		
+		input.close();
 
 	}
 
