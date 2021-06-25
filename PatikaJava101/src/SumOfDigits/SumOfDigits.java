@@ -17,6 +17,7 @@ public class SumOfDigits {
 		}
 		
 		System.out.println("Sonuc= " + temp);
+		input.close();
 
 	}
 
