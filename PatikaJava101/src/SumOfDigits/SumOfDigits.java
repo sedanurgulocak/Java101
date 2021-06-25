@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SumOfDigits {
 
 	public static void main(String[] args) {
-		int number, counter = 0, temp = 0;
+		int number, temp = 0;
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("Sayý giriniz: ");
