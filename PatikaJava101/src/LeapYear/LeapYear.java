@@ -18,7 +18,7 @@ public class LeapYear {
 		else {
 			System.out.println(year + " artýk yýl deðildir!");
 		}
-		
+		input.close();
 	}
 
 }
