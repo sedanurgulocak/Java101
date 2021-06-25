@@ -36,6 +36,7 @@ public class NumberSorting {
 				System.out.println("a < b < c");
 			}
 		}
+		input.close();
 
 	}
 
