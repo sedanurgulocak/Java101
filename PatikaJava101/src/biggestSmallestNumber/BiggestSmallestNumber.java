@@ -1,4 +1,4 @@
-package BiggestSmallestNumber;
+package biggestSmallestNumber;
 
 import java.util.Scanner;
 
