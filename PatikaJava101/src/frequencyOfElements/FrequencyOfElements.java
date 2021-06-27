@@ -9,9 +9,9 @@ public class FrequencyOfElements {
         
         int[]array={10,5,7,8,45,9,10,45,78,32};
                 
-        Scanner klavye = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Dizide Aratmak Ýstediðiniz Sayýyý Giriniz");
-        int search=klavye.nextInt();
+        int search=input.nextInt();
         
         for(int i=0;i<array.length;i++){
             if(search==array[i]){
@@ -22,6 +22,7 @@ public class FrequencyOfElements {
     }
         System.out.println("Dizide Aradýðýnýz Sayý    : "   + search);
         System.out.println("Dizide Tekrar Edilme Sayýsý : " + counter);
+        input.close();
     }
 
 }
