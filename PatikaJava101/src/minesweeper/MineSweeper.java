@@ -117,11 +117,12 @@ public class MineSweeper {
                 }
                 playMatrix[lineInput][columnInput] = String.valueOf(info);
                 count++;
+                
                 System.out.println("Great !");
+                
             }
             System.out.println("==================");
         } while (status && count < (line * column) - ((line * column) / 4));
-        
         
 
         if (status) {
